@@ -1,0 +1,165 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#intro{
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+
+#logo h2{
+    line-height: 3.5px;
+}
+
+#humburger{
+    position: absolute;
+    top:30px;
+    left: 50px;
+}
+
+#humburger>div{
+    height: 2px;
+    width: 30px;
+    background-color: white;
+    margin: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.landing{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#menu{
+    height: 150px;
+}
+
+
+#div-1,#div-2,#div-3,#div-4{
+    width: 25%;
+    height: 100%;    
+    float: left;
+    position: relative;
+}
+
+
+#inner-1,#inner-2{
+    height: 50%;
+    position: relative;
+}
+
+.inner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+    color: white;  
+}
+.bg{
+    width: 100%;
+    height: 100%;
+}
+
+.lunch{
+    opacity: 0.5;
+}
+
+#party{
+    color: black;
+}
+
+
+#inner-1{
+    background-color: #E4E5E7;
+}
+
+#inner-2{
+    background-color: #F15B29;
+}
+
+#fast-food{  
+
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+    border-radius: 10px;  
+    margin-top: 20px;
+}
+
+#fast-img{
+    display: inline-block;
+    position: relative;
+    /* float: left; */
+    width: 50%;
+    height: 100%;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+#fast-text{
+    display: inline-block;
+    width: 50%;
+    clear: right;
+    /* float: left; */
+}
+
+.images{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+}
+
+#fast-img img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+#drinks{
+    width: 70%;
+    margin: 0 auto;
+    height: 400px;
+    margin-top: 20px;
+    background-color: brown;   
+}
+
+#slider{
+    width: 100%;
+    height: 350px;
+    background-color: beige;
+}
+
+#comments{
+    width: 80%;
+    margin: 0 auto;
+    height: 250px;
+    background-color: brown; 
+}
+
+#form, #footer{
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+#footer{
+    background-color: chocolate;
+}
